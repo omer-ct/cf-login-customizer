@@ -1,0 +1,96 @@
+/**
+ * Admin styles for CF Login Customizer
+ */
+
+.cf-login-settings .form-table th {
+    width: 200px;
+}
+
+.cf-login-settings .description {
+    color: #666;
+    font-style: italic;
+    margin-top: 5px;
+}
+
+.cf-login-settings .card {
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    border-radius: 4px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.cf-login-settings .card h2 {
+    margin-top: 0;
+    color: #23282d;
+}
+
+.cf-login-settings .card ul {
+    margin-left: 20px;
+}
+
+.cf-login-settings .card li {
+    margin-bottom: 8px;
+}
+
+.cf-login-settings .wp-list-table {
+    margin-top: 10px;
+}
+
+.cf-login-settings .button-secondary {
+    margin-right: 10px;
+}
+
+/* Color picker styling */
+.cf-color-picker {
+    width: 100px !important;
+}
+
+/* Security logs table */
+.cf-login-settings .wp-list-table th {
+    font-weight: 600;
+}
+
+.cf-login-settings .wp-list-table td {
+    vertical-align: middle;
+}
+
+/* Notice styling */
+.cf-login-settings .notice {
+    margin: 20px 0;
+}
+
+/* Form field styling */
+.cf-login-settings input[type="text"],
+.cf-login-settings input[type="number"],
+.cf-login-settings textarea {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 8px 12px;
+}
+
+.cf-login-settings input[type="text"]:focus,
+.cf-login-settings input[type="number"]:focus,
+.cf-login-settings textarea:focus {
+    border-color: #0073aa;
+    box-shadow: 0 0 0 1px #0073aa;
+    outline: none;
+}
+
+/* Responsive design */
+@media (max-width: 782px) {
+    .cf-login-settings .form-table th {
+        width: auto;
+        display: block;
+        padding-bottom: 0;
+    }
+    
+    .cf-login-settings .form-table td {
+        display: block;
+        padding-left: 0;
+    }
+    
+    .cf-login-settings .wp-list-table {
+        font-size: 12px;
+    }
+} 

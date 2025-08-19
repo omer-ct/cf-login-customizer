@@ -453,6 +453,4 @@ class CF_Login_Admin {
         
         return $sanitized;
     }
-    
-
-} 
+}

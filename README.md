@@ -95,7 +95,3 @@ GPL v2 or later
 
 ## Credits
 Developed by omer-ct — https://github.com/omer-ct
-
-## Screenshots
-1. Custom login page with background image and overlay
-2. Settings page with appearance options and redirect control

@@ -89,8 +89,6 @@ class CF_Login_Customizer {
         // Initialize plugin components
         $this->init_hooks();
         $this->init_admin();
-        
-
     }
     
     public function load_textdomain() {
@@ -132,14 +130,6 @@ class CF_Login_Customizer {
             new CF_Login_Admin();
         }
     }
-    
-
-    
-
-    
-
-    
-
     
     public function add_query_vars($vars) {
         $vars[] = 'cf_login';

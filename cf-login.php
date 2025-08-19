@@ -1,11 +1,11 @@
 <?php
 /**
  * Plugin Name: CF Login Customizer
- * Plugin URI: https://github.com/your-username/cf-login
+ * Plugin URI: https://github.com/omer-ct/cf-login-customizer
  * Description: Customize your WordPress login screen and change the login URL for enhanced security.
  * Version: 1.0.0
  * Author: CodeFixr
- * Author URI: https://codefixr.com
+ * Author URI: https://github.com/omer-ct
  * License: GPL v2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain: cf-login
